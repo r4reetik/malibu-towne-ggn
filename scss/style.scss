@@ -343,7 +343,7 @@ h5,
         opacity: 0.1;
         background: $darken;
         @include gradient-background();
-        height: 850px;
+        height: 100%;
     }
     &.hero-wrap-2 {
         height: 600px !important;
@@ -351,7 +351,7 @@ h5,
         .overlay {
             width: 100%;
             opacity: 0.1;
-            height: 600px;
+            height: 100%;
         }
         .slider-text {
             height: 600px !important;
@@ -1329,7 +1329,7 @@ textarea.form-control {
         margin-bottom: 40px;
     }
     .img {
-        height: 550px;
+        height: 500px;
     }
     .text {
         position: relative;
